@@ -6,8 +6,7 @@
   "scripts": {
     "bundle": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
     "tsc": "tsc --emitDeclarationOnly --outDir dist",
-    "build": "npm run tsc && npm run bundle",
-    "prepack": "npm run tsc && npm run bundle"
+    "build": "npm run tsc && npm run bundle"
   },
   "types": "./dist/index.d.ts",
   "files": [
